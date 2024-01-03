@@ -7,4 +7,42 @@ header footer {
 hero {
     font-size: 48px;
     font-weight: 800;
+    color: #F9FAF8;
+}
+
+/* Hero Secondary text, Header Link Text */
+hero2 headerlink {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+/* Header Logo Text */
+headerlogo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+/* Button color, call to action background color */
+button {
+    color: #3882f6;
+}
+
+/* information header text */ 
+infoheader {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+/* Quote section background color */
+quote {
+    color: #e5e7eb;
+}
+
+/* Quote Text */
+quotetext {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
 }
