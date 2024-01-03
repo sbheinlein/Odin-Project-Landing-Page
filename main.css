@@ -1,18 +1,40 @@
 /* dark background color (hero and footer) */
-header footer {
-    color: #1F2937;
-}
-
-/* Hero Main text ("this website is awesome") */
-hero {
+* {
+    background-color: #1F2937;
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
 }
 
+img {
+    width: 200px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-links {
+    display: flex;
+    list-style-type: none;
+    gap: 8px;
+}
+
+.panel-one-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.panel-one-left {
+    display: flex;
+    flex-direction: column;
+}
+
 /* Hero Secondary text, Header Link Text */
-hero2 headerlink {
+.panel-one-container p, .header-links * {
     font-size: 18px;
+    font-weight: 400;
     color: #e5e7eb;
 }
 
@@ -23,7 +45,7 @@ headerlogo {
 }
 
 /* Button color, call to action background color */
-button {
+button, .banner {
     color: #3882f6;
 }
 
@@ -35,8 +57,9 @@ infoheader {
 }
 
 /* Quote section background color */
-quote {
-    color: #e5e7eb;
+.panel-three-container * {
+    background-color: #e5e7eb;
+    display: flex;
 }
 
 /* Quote Text */
