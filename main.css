@@ -1,0 +1,10 @@
+/* dark background color (hero and footer) */
+header footer {
+    color: #1F2937;
+}
+
+/* Hero Main text ("this website is awesome") */
+hero {
+    font-size: 48px;
+    font-weight: 800;
+}
